@@ -1,3 +1,5 @@
+来自于：https://github.com/thinkphoebe/callstack
+
 通过backtrace()函数可以获得当前的程序堆栈地址. 提供一个指针数组, backtrace()函数会把调用堆栈的地址填到里面.
 #include <execinfo.h>
 int backtrace(void **buffer, int size);
